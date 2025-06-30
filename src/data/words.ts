@@ -54,7 +54,43 @@ export const englishWords: WordData[] = [
     { word: "organization", meaning: "組織", difficulty: "medium" },
     { word: "performance", meaning: "パフォーマンス", difficulty: "medium" },
     { word: "management", meaning: "管理", difficulty: "medium" },
-    { word: "relationship", meaning: "関係", difficulty: "medium" }
+    { word: "relationship", meaning: "関係", difficulty: "medium" },
+
+    // TOEIC頻出単語 (Easy)
+    { word: "ability", meaning: "能力", difficulty: "easy" },
+    { word: "accept", meaning: "受け入れる", difficulty: "easy" },
+    { word: "actually", meaning: "実際に", difficulty: "easy" },
+    { word: "add", meaning: "加える", difficulty: "easy" },
+    { word: "advertisement", meaning: "広告", difficulty: "easy" },
+    { word: "agree", meaning: "同意する", difficulty: "easy" },
+    { word: "allow", meaning: "許す", difficulty: "easy" },
+    { word: "announce", meaning: "発表する", difficulty: "easy" },
+    { word: "apply", meaning: "申し込む", difficulty: "easy" },
+    { word: "appoint", meaning: "指名する", difficulty: "easy" },
+
+    // TOEIC頻出単語 (Medium)
+    { word: "accompany", meaning: "同行する", difficulty: "medium" },
+    { word: "achieve", meaning: "達成する", difficulty: "medium" },
+    { word: "additional", meaning: "追加の", difficulty: "medium" },
+    { word: "adequate", meaning: "十分な", difficulty: "medium" },
+    { word: "admission", meaning: "入場料、入学許可", difficulty: "medium" },
+    { word: "advance", meaning: "進歩、前進", difficulty: "medium" },
+    { word: "affordable", meaning: "手頃な価格の", difficulty: "medium" },
+    { word: "alternative", meaning: "代わりの", difficulty: "medium" },
+    { word: "analysis", meaning: "分析", difficulty: "medium" },
+    { word: "annual", meaning: "毎年の", difficulty: "medium" },
+
+    // TOEIC頻出単語 (Hard)
+    { word: "accumulate", meaning: "蓄積する", difficulty: "hard" },
+    { word: "acquisition", meaning: "買収、獲得", difficulty: "hard" },
+    { word: "allocate", meaning: "割り当てる", difficulty: "hard" },
+    { word: "anticipate", meaning: "予期する", difficulty: "hard" },
+    { word: "apprehensive", meaning: "心配して", difficulty: "hard" },
+    { word: "assurance", meaning: "保証、確信", difficulty: "hard" },
+    { word: "chronicle", meaning: "年代記", difficulty: "hard" },
+    { word: "collaborate", meaning: "協力する", difficulty: "hard" },
+    { word: "commemorate", meaning: "記念する", difficulty: "hard" },
+    { word: "consecutive", meaning: "連続した", difficulty: "hard" }
 ];
 
 export function getRandomWords(count: number = 10, difficulty: DifficultyLevel | null = null): WordData[] {
